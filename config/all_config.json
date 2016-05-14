@@ -1,0 +1,61 @@
+{
+    "dbcache_config": {
+        "REDIS": {
+            "blog_redis": {
+                "bjdt": {
+                    "host": "127.0.0.1",
+                    "database": "0",
+                    "password": "",
+                    "timeout": "1",
+                    "name": "blog",
+                    "port": "6379"
+                }
+            },
+            "cache_blog_wRedis": {
+                "bjdt": {
+                    "host": "127.0.0.1",
+                    "database": "0",
+                    "password": "",
+                    "timeout": "1",
+                    "name": "blog",
+                    "port": "6379"
+                }
+            },
+            "cache_blog_rRedis": {
+                "bjdt": {
+                    "host": "127.0.0.1",
+                    "database": "0",
+                    "password": "",
+                    "timeout": "1",
+                    "name": "blog",
+                    "port": "6379"
+                }
+            }
+        },
+        "MEMCACHED": {
+            "memcached_default": {
+                "bjdt": [
+                    {
+                        "persistentId": "",
+                        "name": "web_memcache",
+                        "mlc": "1",
+                        "servers": "127.0.0.1",
+                        "prefixKey": "",
+                        "port": "11211"
+                    }
+                ]
+            }
+        },
+        "MYSQL": {
+            "database_default": {
+                "bjdt": {
+                    "password": "127.0.0.1",
+                    "dbname": "web",
+                    "host": "127.0.0.1",
+                    "name": "web",
+                    "port": "123456"
+                }
+            }
+        }
+    }
+}
